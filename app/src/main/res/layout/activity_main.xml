@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-74dp">
+
+        <TextView
+            android:id="@+id/lblSaludo"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:text="::  ::" />
+
+        <EditText
+            android:id="@+id/txtSaludo2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:ems="10"
+            android:hint="Escribe aqui tu Nombre"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/btnSaludo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click aqui" />
+
+        <Button
+            android:id="@+id/btnLimpio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Limpiar" />
+
+        <Button
+            android:id="@+id/btnSal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salir" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
